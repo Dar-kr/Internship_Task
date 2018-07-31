@@ -6,7 +6,7 @@ Shortest Path between given points over triangle surface.
 SOLUTION
 We take a plane that contains start and finish points, 
 then look for a intersection of this plane and surface
-and count the length of this intersection. 
+and calculate the length of this intersection. 
 Then we turn in on the small corner around the line through 
 start and finish points, look for new intercection and 
 compare with previos. So we found a shortest path of all. 
