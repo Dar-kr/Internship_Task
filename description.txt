@@ -1,0 +1,27 @@
+ALGORITM DESRIPTION
+
+PROBLEM
+Shortest Path between given points over triangle surface.
+
+SOLUTION
+We take a plane that contains start and finish points, 
+then look for a intersection of this plane and surface
+and count the length of this intersection. 
+Then we turn in on the small corner around the line through 
+start and finish points, look for new intercection and 
+compare with previos. So we found a shortest path of all. 
+
+The program can be improved for higher precision. It's 
+enought to repeat searching around the angle with smallest 
+path from the previos step. 
+
+Start point have to lie on the vertex of the surface. 
+Finish point can lie anywere. 
+If start point lies anywere, program would be more difficult, 
+but it could be done, if necessary.
+
+I used simple STL file that describes cube with additional 
+triangles on facets for general testing and looking for
+different point positions. 
+I used sets of points and other objects for testing
+separate functions.
