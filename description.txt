@@ -20,8 +20,10 @@ Finish point can lie anywere.
 If start point lies anywere, program would be more difficult, 
 but it could be done, if necessary.
 
-I used simple STL file that describes cube with additional 
-triangles on facets for general testing and looking for
-different point positions. 
+I used free STL files for checking the functions with file
+reading.
 I used sets of points and other objects for testing
-separate functions.
+separate functions with calculating parts of path.
+And then I created and used simple STL file that describes 
+cube with additional triangles on facets for general testing 
+and looking for different point positions. 
